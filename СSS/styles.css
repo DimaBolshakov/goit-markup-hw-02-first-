@@ -1,0 +1,76 @@
+/* common styles */
+a {text-decoration: none;}
+
+
+/* header styles */
+.header {
+}
+.logo {
+    color: #4D5AE5;
+}
+.header-nav {
+}
+.header-list {
+}
+.header-item {
+}
+.header-link:hover,
+.header-link:focus {
+    color: #404BBF;
+}
+.address {
+}
+.list {
+}
+.address-list {
+}
+.address-link:hover,
+.address-link:focus {
+    color: #404BBF;
+}
+
+/* hero styles */
+.section {
+}
+.hero {
+    background-color: #2E2F42;
+}
+.hero-title {
+    color: #FFFFFF;
+}
+.hero-button { 
+background-color: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+color: #FFFFFF;
+}
+
+/* benefits styles */
+.section {
+}
+.benefits {
+}
+.benefits-list {
+}
+.benefits-item {
+}
+.benefits-title {
+}
+.benefits-text {
+}
+
+/* knowledge styles */
+.section {
+}
+.knowledges {
+}
+.knowledges-headline {
+}
+.knowledges-list {
+}
+.knowledges-item {
+}
+.knowledge-img {
+}
+
+/* team styles */

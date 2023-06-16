@@ -4,65 +4,81 @@
     <meta charset="utf-8" />
     <meta name="description" content="Solutions for rise your bussines" />
     <title>Business consulting</title>
+    <!--custom styles-->
+    <link rel="stylesheet" href="./СSS/styles.css" />
   </head>
 
-  <body>
+  <body class="page">
     <!--page header-->
-    <header>
+    <header class="header">
       <!--header navigation-->
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="#" target="_blank">Studio</a></li>
-          <li><a href="#" target="_blank">Portfolio</a></li>
-          <li><a href="#" target="_blank">Contacts</a></li>
+      <nav class="header-nav">
+        <a href="./index.html"><span class="logo">Web</span>Studio</a>
+        <ul class="header-list">
+          <li class="header-item">
+            <a class="header-link" href="./index.html">Studio</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="#" target="_blank">Contacts</a>
+          </li>
         </ul>
       </nav>
       <!--header's contacts-->
-      <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <address class="address">
+        <ul class="address list">
+          <li class="address-list">
+            <a class="address-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="address-list">
+            <a class="address-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
 
     <!--main content-->
-    <main>
+    <main class="main-studio">
       <!--hero section-->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="section hero">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button class="hero-button" type="button">Order Service</button>
       </section>
 
-      <!--why we are the best? section-->
-      <section>
+      <!--benefits section-->
+      <section class="section benefits">
         <h2 hidden>Advanced</h2>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
+        <ul class="benefits-list">
+          <li class="benefits-item">
+            <h3 class="benefits-title">Strategy</h3>
+            <p class="benefits-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
+          <li class="benefits-item">
+            <h3 class="benefits-title">Punctuality</h3>
+            <p class="benefits-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
+          <li class="benefits-item">
+            <h3 class="benefits-title">Diligence</h3>
+            <p class="benefits-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
+          <li class="benefits-item">
+            <h3 class="benefits-title">Technologies</h3>
+            <p class="benefits-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -70,26 +86,29 @@
         </ul>
       </section>
 
-      <!--What are we doing? section-->
-      <section>
-        <h2>What are we doing</h2>
-        <ul>
-          <li>
+      <!--knowledges section-->
+      <section class="section knowledges">
+        <h2 class="knowledges-headline">What are we doing</h2>
+        <ul class="knowledges-list">
+          <li class="knowledges-item">
             <img
+              class="knowledge-img"
               src="./images/main/what-are-we-doing/what-are-we-doing-1.jpg"
               width="360"
               alt="computer"
             />
           </li>
-          <li>
+          <li class="knowledges-item">
             <img
+              class="knowledge-img"
               src="./images/main/what-are-we-doing/what-are-we-doing-2.jpg"
               width="360"
               alt="phone screen"
             />
           </li>
-          <li>
+          <li class="knowledges-item">
             <img
+              class="knowledge-img"
               src="./images/main/what-are-we-doing/what-are-we-doing-3.jpg"
               width="360"
               alt="phone"
@@ -143,7 +162,7 @@
     </main>
 
     <!--page footer-->
-    <footer>
+    <footer class="footer">
       <a href="./index.html">WebStudio</a>
       <p>
         Increase the flow of customers and sales for your business with digital
