@@ -1,7 +1,8 @@
 /* common styles */
 .page {
   color: #434455;
-  font-family: roboto, sans-serif;
+  background-color: #E5E5E5;
+  font-family: "Roboto", sans-serif;
 }
 ul {
   list-style-type: none;
