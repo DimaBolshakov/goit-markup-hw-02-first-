@@ -1,8 +1,8 @@
 /* common styles */
-.page {
+.body {
   color: #434455;
   background-color: #E5E5E5;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 ul {
   list-style-type: none;
