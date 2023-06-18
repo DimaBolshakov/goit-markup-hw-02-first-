@@ -1,6 +1,5 @@
 /* common styles */
-:root {
-  --main-background-color: #ffffff;
+:root{--main-background-color: #ffffff;
 }
 .body {
   color: #434455;
